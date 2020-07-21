@@ -1,0 +1,40 @@
+{
+  "name": "kubeeapp/kcms-autoloader",
+  "license": "MIT",
+  "description": "An autoloader that enables standard plugins to be required just like must-use plugins",
+  "authors": [
+    {
+      "name": "Romeo Covaci",
+      "email": "romeo.covaci@gmail.com",
+      "homepage": "https://github.com/romeocovaci"
+    },
+    {
+      "name": "Brand Li",
+      "email": "brandli.ro@gmail.com",
+      "homepage": "https://github.com/brand-li"
+    },
+    {
+      "name": "Kubee",
+      "email": "kubeeapp@gmail.com",
+      "homepage": "https://github.com/kubeeapp"
+    }
+  ],
+  "keywords": [
+    "autoloader", "kcms", "mu-plugin", "must-use", "plugin", "kubee"
+  ],
+  "support": {
+    "forum": "https://discourse.kubee.ga/"
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kubeeapp\\Kcms\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+    "10up/wp_mock": "^0.4.2"
+  }
+}
